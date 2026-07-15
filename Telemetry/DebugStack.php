@@ -2,9 +2,7 @@
 
 namespace Okwind\TempoTelemetryBundle\Telemetry;
 
-use Doctrine\DBAL\Logging\SQLLogger;
-
-class DebugStack implements SQLLogger
+class DebugStack
 {
     public $traces = [];
     public ?Trace $currentTrace = null;

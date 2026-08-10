@@ -1,6 +1,6 @@
 {
     "name": "okwind/tempo-telemetry-bundle",
-    "type": "library",
+    "type": "symfony-bundle",
     "description": "Tempo Telemetry Symfony Bundle",
     "keywords": [
         "PHP",
@@ -8,12 +8,17 @@
         "Tempo"
     ],
     "require": {
+      "php": "^8.1",
+      "ext-ctype": "*",
       "doctrine/dbal": "^4.0",
+      "guzzlehttp/guzzle": "^7.0",
       "psr/log": "^1.0 || ^2.0 || ^3.0",
-      "php": "^8.0",
-      "ext-ctype": "*"
+      "symfony/config": "^6.4 || ^7.0 || ^8.0",
+      "symfony/dependency-injection": "^6.4 || ^7.0 || ^8.0",
+      "symfony/http-kernel": "^6.4 || ^7.0 || ^8.0",
+      "symfony/yaml": "^6.4 || ^7.0 || ^8.0"
     },
-    "version": "2.0.1",
+    "version": "2.1.0",
     "autoload": {
         "psr-4": {
             "Okwind\\TempoTelemetryBundle\\": ""

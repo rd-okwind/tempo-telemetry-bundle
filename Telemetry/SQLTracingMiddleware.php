@@ -87,7 +87,7 @@ class SQLTracingMiddleware implements Middleware
                         }
                     }
 
-                    public function exec(string $sql): int
+                    public function exec(string $sql): int|string
                     {
                         $this->middleware->startQuery($sql);
                         try {

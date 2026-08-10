@@ -2,6 +2,14 @@
 
 This bundle provides SQL query tracing for Doctrine DBAL 4.0+ using the middleware approach. It sends trace data to a Tempo instance for monitoring and analysis.
 
+## Requirements
+
+| Requirement  | Supported versions        |
+|--------------|---------------------------|
+| PHP          | 8.1+ (8.4+ for Symfony 8) |
+| Symfony      | 6.4, 7.x, 8.x             |
+| Doctrine DBAL| 4.0+                      |
+
 ## Installation
 
 Install the bundle via Composer:
